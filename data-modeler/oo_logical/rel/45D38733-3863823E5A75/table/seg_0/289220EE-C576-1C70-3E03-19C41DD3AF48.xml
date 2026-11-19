@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="289220EE-C576-1C70-3E03-19C41DD3AF48" name="PASSENGER">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>8265D1B0-D114-C6AC-A49B-7E7CBF316945</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="117608BB-7BF4-A921-B87D-2EBB28BA9D90">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's unique ID]]></commentInRDBMS>
+<generatorID>79B809C3-078A-F4C9-0346-9B5DC9EDECC7</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_fname" id="5509B39E-C690-4CCA-E6A6-A32B51FE3052">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's first name]]></commentInRDBMS>
+<generatorID>69B3A8DC-84AD-9342-DE72-C2388307EEBC</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_lname" id="A8313D5D-F716-0DD5-5261-9DBA67D85A8D">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's last name]]></commentInRDBMS>
+<generatorID>DADEA51B-1B55-D62D-7232-3DA08D3EC56C</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_gender" id="94BA8470-7A0E-83DB-BCAA-4986D353B7D2">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's gender]]></commentInRDBMS>
+<generatorID>1C19FB9C-DF41-37A0-6BC5-8EC62DF251CF</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_dob" id="F08377CB-ED1C-381A-EC82-182A869762F4">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's date of birth]]></commentInRDBMS>
+<generatorID>EAF33A2F-396C-64BD-3BEA-69E618668DA0</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guardian_id" id="31489301-74EC-6AEA-B52F-9D6266217E55">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Passenger's unique ID]]></commentInRDBMS>
+<generatorID>CD17F88C-FD71-6948-10B0-49B7287A3717</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0318BD92-8851-F8A2-B493-D66A88BEA450" referredColumn="117608BB-7BF4-A921-B87D-2EBB28BA9D90"/>
+</associations>
+</Column>
+<Column name="phone_country_code" id="74CCB4A4-5485-7326-4782-1F5A1878D365">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country code component of the passenger's contact phone number]]></commentInRDBMS>
+<generatorID>263F52CE-7179-785B-C3FD-038BBF72C1FF</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_area_code" id="6DC8E216-27BF-E1FE-089D-B4654D411225">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Area code component of the passenger's contact phone number]]></commentInRDBMS>
+<generatorID>597FCAB4-90EE-38BA-8A3B-CDE2794AB158</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_subscriber_no" id="9F3210E7-FE43-1425-A244-93B09C6142CD">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Subscriber number component of the passenger's contact phone number]]></commentInRDBMS>
+<generatorID>12C9E68C-16CB-5620-6A35-4DE881BF6CB5</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr_id" id="E208B65F-3FB0-22D0-6AAF-674A2292A896">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address ID (surrogate PK)]]></commentInRDBMS>
+<generatorID>B306F987-3666-D2A7-0E31-B45CD16AC292</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE559AD6-46FB-0D94-1318-3739DE153CA7" referredColumn="DDEDF9FB-273F-D789-CD17-C022CBF71A0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EACFD7F-146D-C6A3-4830-9D386715E83B" name="PASSENGER_PK">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>67B0E521-8313-FB38-CE9E-0385B90F1B13</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="117608BB-7BF4-A921-B87D-2EBB28BA9D90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A57F0C9-193B-1E59-D021-5FBFEA57B3B2" name="address_passenger_fk">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>E234336A-F434-2DBA-E2A2-6596AD2D5EE5</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E208B65F-3FB0-22D0-6AAF-674A2292A896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6510F1FC-120A-1C85-673C-A02EFFA65D12" name="passenger_fk">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>A247260E-78A8-51B9-FABF-66FF95B23AF4</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31489301-74EC-6AEA-B52F-9D6266217E55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

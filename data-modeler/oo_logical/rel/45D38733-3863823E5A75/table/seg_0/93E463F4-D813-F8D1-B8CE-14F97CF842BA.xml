@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93E463F4-D813-F8D1-B8CE-14F97CF842BA" name="COUNTRY">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>E75A99EE-4450-3814-36DA-3E0C734C114B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_code" id="9BBD94E6-6A2E-9945-DA50-B8444DB68269">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country code]]></commentInRDBMS>
+<generatorID>B3E75342-BD63-DD17-4019-2064F0929F24</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="E5E7F2F2-4112-FB37-B0A4-06E90882A5C4">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of country]]></commentInRDBMS>
+<generatorID>FB7AD151-1D9A-FB63-AF1E-8AC660B4740B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>56</dataTypeSize>
+<ownDataTypeParameters>56,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3AE8DB-90E1-C575-DDA3-7638F27DC9DD" name="COUNTRY_PK">
+<createdBy>user</createdBy>
+<createdTime>2025-05-03 11:19:13 UTC</createdTime>
+<generatorID>9E22EB05-3F63-054E-1123-F11C45C5BFE3</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BBD94E6-6A2E-9945-DA50-B8444DB68269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
